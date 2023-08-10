@@ -1,0 +1,222 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 16px;
+  background-color: #3f1047;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+
+/* New css code for about page */
+
+.container {
+  width: 100%;
+}
+.navbar {
+  margin-left:-5%;
+  margin-right: 0%;
+}
+
+.display-text {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-family: text-jumbo;
+}
+
+@font-face {
+  font-family: 'text-jumbo';
+  src: url('/fonts/Calderyon.otf');
+}
+
+
+.container-about {
+  height: 500vh;
+  margin-left: 5%;
+margin-right: 5%
+}
+
+.about-text {
+  font-weight: 600;
+  font-size: 3.5rem;
+  color: #ff4f00;
+  font-family: 'text-about';
+}
+@font-face {
+  font-family: 'text-about';
+  src: url('/fonts/Honystile.otf');
+}
+
+.about-text > img{
+  width: 350px;
+  height:255px;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.email-address-text, .email-address-text > a {
+  margin-top: 1%;
+  color: #ff4f00;
+  font-family: 'text-email-address';
+  font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+}
+
+@font-face {
+  font-family: 'text-email-address';
+  src: url('/fonts/Lato-Bold.ttf');
+}
+
+/* CSS */
+.button-5 {
+  margin-top: 2%;
+  width:190px;
+  height: 25px;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.know-me-text {
+  margin-top:2%;
+  font-size: 3rem;
+  color: #f98128;
+  font-family: 'know-me-text';
+}
+
+@font-face {
+  font-family: 'know-me-text';
+  src: url('/fonts/MotionPicture_PersonalUseOnly.ttf');
+}
+
+.information-text {
+  margin-top:2%;
+  color: #EAA222;
+  font-family: 'information-texts';
+  font-size: 2.5rem;
+}
+
+@font-face {
+  font-family: 'information-texts';
+  src: url('/fonts/always\ forever.ttf');
+}
+
+.image-container {
+  margin-top:5%;
+}
+
+.image-container > img {
+    width: 350px;
+  height:255px;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.social-media {
+  float: right;
+    font-weight: 600;
+  font-size: 3.5rem;
+  color: #ff4f00;
+  font-family: 'text-about';
+  display: grid;
+justify-items: center;
+}
+
+.space-social > a > img {
+  width: 55px;
+  height: 55px;
+  padding:10px;
+  display: inline;
+}
+
+.social-text {
+    margin-top: 1%;
+  color: #ff4f00;
+  font-family: 'text-email-address';
+}
+
+.social-twitter{
+  font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+
+footer {
+  background-color: #3f1047;
+  color: #2ad871;
+  text-align: center;
+  padding: 32px;
+  font-size: 24px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 424px) and (max-width: 641px) {
+ .about-text > img {
+   width: 155px;
+ }
+  .image-container > img {
+    width: 155px;
+  }
+}
+@media only screen and (min-width: 333px) and (max-width: 424px) {
+ .about-text > img {
+   width: 90px;
+ }
+    .image-container > img {
+    width: 155px;
+  }
+}
